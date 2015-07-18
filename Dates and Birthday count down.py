@@ -12,7 +12,7 @@
 
 #birthday countdown 
 import datetime  
-birthday = input('What is your birthday? mm/dd/yyyy?') 
+birthday = input('What is your birthday? + " " mm/dd/yyyy?') 
 birthdate = datetime.datetime.strptime(birthday,"%m/%d/%Y").date()  
 #why did we list datetime twice?
 #bc we are calling strptime function which is part of datetime class
